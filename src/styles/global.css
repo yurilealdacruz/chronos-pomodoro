@@ -1,10 +1,14 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    margin: 2px;
     padding: 0;
     font-size: 30px;
 }
 
 h1 {
-    color: purple;
+    color: var(--primary);
+}
+
+.heading {
+    background-color: blue;
 }

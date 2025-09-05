@@ -6,7 +6,10 @@ import './styles/theme.css';
 export function App() {
   return (
     <>
-      <Heading attr='String' sttr2={123} >Olá Mundo!</Heading>
+      <Heading>
+        Olá Mundo!
+        <button>P</button>
+      </Heading>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores
         delectus quaerat aperiam rem voluptas porro quia voluptatum
@@ -16,4 +19,3 @@ export function App() {
     </>
   );
 }
-

@@ -5,8 +5,8 @@ import styles from './styles.module.css';
 export function Logo() {
     
     return <div className={styles.logo}>
-        <a href='#'>
-            <TimerIcon/>
+        <a className={styles.logoLink} href='#'>
+            <TimerIcon size={64}/>
             <span>Chronos</span>
         </a>
     </div>;

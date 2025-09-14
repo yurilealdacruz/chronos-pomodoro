@@ -1,7 +1,8 @@
-import styles from './Heading.module.css';
+import type React from 'react';
+import styles from './styles.module.css';
 
 type HeadingProps = {
-    children: string;
+    children: React.ReactNode;
 }
 
 
